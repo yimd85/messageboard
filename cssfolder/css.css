@@ -1,0 +1,8 @@
+.divUser, .inputUser, .divPost, .divTextarea{
+  display: block;
+}
+
+
+img {
+  border-radius: 100%;
+}
