@@ -4,7 +4,7 @@
       <link rel="stylesheet" href="/css.css"></link>
       <title>Comment Add</title>
     </head>
-    
+
     <body>
 
       <h1>Bulletin Board</h1>
@@ -21,8 +21,8 @@
       <h1>Messages</h1>
       <% for(var i = 0; i < messages.length;i++){ %>
         <div class='msg'>
-          <p class='msg-title'><%= messages[i].dataValues.user + ": " %>
-            <span class='msg-body'><%= messages[i].dataValues.post %></span>
+          <p class='msg-title'><%= messages[i].dataValues.title + ": " %>
+            <span class='msg-body'><%= messages[i].dataValues.body %></span>
           </p>
         </div>
       <% } %>

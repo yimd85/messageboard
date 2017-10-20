@@ -92,8 +92,8 @@ app.post('/addshit',function(request,response){
     .findAll()
       .then(function(){
         Stuff.create({
-            title: request.body.user,
-            body: request.body.post
+            title: request.body.title,
+            body: request.body.body
         });
         response.redirect('/')
   })
